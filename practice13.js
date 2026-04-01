@@ -21,10 +21,11 @@ let nextTrip = null;
 console.log("Horizon Travel Client Profile :");
 console.log(`Customer Name : ${customerName}`);
 console.log(`Age : ${age}`);
-console.log(`Returning Customer ${returningCustomer}`);
-console.log(`Countries Visited ${countriesVisited}`);
-console.log(`Current Trip ${currentTrip}`);
-console.log(`The customer will return date is -  ${currentTrip}`);
+console.log(`Returning Customer: ${returningCustomer}`);
+console.log(`Countries Visited: ${countriesVisited}`);
+console.log("Details on Current Trip:");
+console.log(currentTrip);
+console.log(`The customer will return date is -  ${returnDate}`);
 console.log(`Next travel destination - ${nextTrip}`)
 
 //Illustrating data types four variables 
