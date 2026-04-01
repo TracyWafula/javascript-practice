@@ -3,18 +3,21 @@
 let customerName = "Richard"; //string
 let age = 35; //number
 let returningCustomer = true //boolean
-let countriesVisited = ["Spain", "Morocco", "Senegal", "Madagascar"];
+let countriesVisited = ["Spain", "Morocco", "Senegal", "Madagascar"]; //array
+//object
 let currentTrip = {
     country: "Greece",
     city: "Athen",
     plannedActivities: 5
 
 }
-let retundate;
 
+//undefined
+let returnDate;
+//null
 let nextTrip = null;
 
-
+//print all variables 
 console.log("Horizon Travel Client Profile :");
 console.log(`Customer Name : ${customerName}`);
 console.log(`Age : ${age}`);
@@ -23,3 +26,9 @@ console.log(`Countries Visited ${countriesVisited}`);
 console.log(`Current Trip ${currentTrip}`);
 console.log(`The customer will return date is -  ${currentTrip}`);
 console.log(`Next travel destination - ${nextTrip}`)
+
+//Illustrating data types four variables 
+console.log(`Variable :returnDate Datatype: ${typeof returnDate}`);
+console.log(`Variable :currentTrip Datatype: ${typeof currentTrip}`);
+console.log(`Variable :nextTrip Datatype: ${typeof nextTrip}`);
+console.log(`Variable :countriesVisited Datatype:${countriesVisited}`);
